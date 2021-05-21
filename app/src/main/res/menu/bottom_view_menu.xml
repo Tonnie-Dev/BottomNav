@@ -1,4 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <item
+        android:id="@+id/work_menu"
+        android:enabled="true"
+        android:icon="@drawable/home_icon"
+        android:title="@string/work_space"
+        android:visible="true" />
+    <item
+        android:id="@+id/kitchen_menu"
+        android:enabled="true"
+        android:icon="@drawable/kitchen_icon"
+        android:title="@string/kitchen_space"
+        android:visible="true" />
+    <item
+        android:id="@+id/meeting_menu"
+        android:enabled="true"
+        android:icon="@drawable/meeting_icon"
+        android:title="@string/meeting_room"
+        android:visible="true" />
 </menu>
