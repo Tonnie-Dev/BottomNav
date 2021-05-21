@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/nav_graph.xml">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/workSpace">
 
+    <fragment
+        android:id="@+id/workSpace"
+        android:name="com.androidshowtime.WorkSpace"
+        android:label="fragment_work_space"
+        tools:layout="@layout/fragment_work_space" />
+    <fragment
+        android:id="@+id/kitchenSpace"
+        android:name="com.androidshowtime.KitchenSpace"
+        android:label="fragment_kitchen_space"
+        tools:layout="@layout/fragment_kitchen_space" />
+    <fragment
+        android:id="@+id/meetingRoom"
+        android:name="com.androidshowtime.MeetingRoom"
+        android:label="fragment_meeting_room"
+        tools:layout="@layout/fragment_meeting_room" />
 </navigation>
